@@ -14,7 +14,7 @@ const Chat = ({location}) =>{
 
     const [name,setName]=useState('');
     const [room,setRoom]=useState('');
-    const [users, setUsers] = useState('');
+    const users  = useState('');
     const [message,setMessage]=useState('');
     const [messages,setMessages]=useState([]);
 
